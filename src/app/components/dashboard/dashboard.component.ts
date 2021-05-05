@@ -50,6 +50,7 @@ export class DashboardComponent implements OnInit {
     }, 2000);
   }
 
+  //reset app
   reset(){
     setTimeout(() =>{
       this.ciudad= '';
