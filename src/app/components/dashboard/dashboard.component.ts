@@ -42,6 +42,7 @@ export class DashboardComponent implements OnInit {
     })
   }
 
+  // generate error
   error(){
     this.mostrarError = true;
     setTimeout(() => {
@@ -50,7 +51,7 @@ export class DashboardComponent implements OnInit {
     }, 2000);
   }
 
-  //reset app
+  // reset app
   reset(){
     setTimeout(() =>{
       this.ciudad= '';
